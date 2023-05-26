@@ -130,7 +130,7 @@ void Doublelinkedlist::revtraverse() {
 			currentNode = currentNode->next;
 
 		while (currentNode != NULL) {
-			cout << currentNode->noMhs << " " << currentNode->prev << endl;
+			cout << currentNode->noMhs << " " << currentNode->nama << endl;
 			currentNode = currentNode->prev;
 		}
 	}
